@@ -6,6 +6,9 @@ async function main() {
     books.forEach(renderBook)
 }
 
+
+
+
 function renderBook(book) {
     let bookContainer = document.querySelector('.book-container')
     bookContainer.innerHTML += `
@@ -24,5 +27,6 @@ function renderBook(book) {
         </div>
     `
 }
+
 
 main()
